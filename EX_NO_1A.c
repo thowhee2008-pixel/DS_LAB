@@ -1,7 +1,7 @@
 #include<stdio.h> 
 #define MAX_SIZE 100
 void createArray(int arr[], int *size);
-void insertElement(int arr[], int *size, int element, int position);
+void insertElement(int arr[], int *size, int element, int position); 
 int searchElement(int arr[], int size, int element); 
 void deleteElement(int arr[], int *size, int position);
 void displayArray(int arr[], int size); int main() {  int arr[MAX_SIZE];  int size = 0; 
