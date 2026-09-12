@@ -122,7 +122,7 @@ printf("\nBFS Traversal starting from vertex 0:\n");
 BFS(graph, 0);
 return 0;
 }
-OUTPUT:
+/* OUTPUT:
 2 -> 1 ->
 3 -> 2 -> 0 ->
 3 -> 1 -> 0 ->
@@ -131,4 +131,4 @@ BFS Traversal starting from vertex 0:
 Visited 0
 Visited 2
 Visited 1
-Visited 3
+Visited  3*/
